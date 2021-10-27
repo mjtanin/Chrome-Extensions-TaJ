@@ -1,0 +1,29 @@
+{
+  "name": "TaJ",
+  "description": "Show your Image on any Website",
+  "version": "0.02",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/a.png",
+      "32": "/images/a.png",
+      "48": "/images/a.png",
+      "128": "/images/a.png"
+    }
+  },
+  "icons": {
+    "16": "/images/a.png",
+    "32": "/images/a.png",
+    "48": "/images/a.png",
+    "128": "/images/a.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["tanin.css"]
+    }
+  ]
+}

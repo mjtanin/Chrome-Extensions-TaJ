@@ -1,0 +1,17 @@
+.popup-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cButton {
+  padding: 5px 20px;
+  color: #fff;
+}
+
+#on.cButton {
+  background-color: green;
+}
+#off.cButton {
+  background-color: red;
+}

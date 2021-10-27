@@ -1,0 +1,16 @@
+#tanin > img {
+  max-width: 200px;
+  position: fixed;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  border: 2px solid red;
+  border-radius: 500px;
+  opacity: 0.5;
+  z-index: 999999999;
+  max-height: 200px;
+  top: 465px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.3s ease;
+}
